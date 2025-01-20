@@ -4,15 +4,13 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {NavigationContainer} from '@react-navigation/native';
 import ListPostController from './src/screens/ListPost/ListPostController';
 import AddPostController from './src/screens/AddPost/AddPostController';
-import AppBar from './src/screens/component/AppBar';
 
 const App = () => {
   const Stack = createNativeStackNavigator();
   return (
-    <SafeAreaView style={{flex: 1}}>
+    <SafeAreaView>
       <NavigationContainer>
-        <AppBar />
-        <Stack.Navigator screenOptions={{headerShown: false}}>
+        <Stack.Navigator>
           <Stack.Screen name="ListPost" component={ListPostController} />
           <Stack.Screen name="AddPost" component={AddPostController} />
         </Stack.Navigator>
