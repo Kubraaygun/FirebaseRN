@@ -3,28 +3,12 @@ import React from 'react';
 import CustomButton from './CustomButton';
 import {useNavigation} from '@react-navigation/native';
 
-const AppBar = ({activePage, setActivePage}) => {
+const AppBar = () => {
   const navigation = useNavigation();
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Form Listesi</Text>
-      {activePage === 'Gönderiler' ? (
-        <CustomButton
-          buttonTitle={'Gönderi Ekle'}
-          onPress={() => {
-            setActivePage('Gönderi Ekle');
-            navigation.navigate('AddPost');
-          }}
-        />
-      ) : (
-        <CustomButton
-          buttonTitle={'Gönderi Listesi'}
-          onPress={() => {
-            setActivePage('Gönderiler');
-            navigation.navigate('ListPost');
-          }}
-        />
-      )}
+      <CustomButton buttonTitle={'Gönderi Ekle'} />
     </View>
   );
 };

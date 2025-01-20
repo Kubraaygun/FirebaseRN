@@ -18,10 +18,10 @@ const AppBar = ({activePage, setActivePage}) => {
         />
       ) : (
         <CustomButton
-          buttonTitle={'Gönderi Listesi'}
+          buttonTitle={'Gönderi Ekle'}
           onPress={() => {
-            setActivePage('Gönderiler');
-            navigation.navigate('ListPost');
+            setActivePage('Gönderi Ekle');
+            navigation.navigate('AddPost');
           }}
         />
       )}

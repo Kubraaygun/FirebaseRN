@@ -1,5 +1,5 @@
 import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
-import React, {useState} from 'react';
+import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {NavigationContainer} from '@react-navigation/native';
 import ListPostController from './src/screens/ListPost/ListPostController';
@@ -12,7 +12,7 @@ const App = () => {
   return (
     <SafeAreaView style={{flex: 1}}>
       <NavigationContainer>
-        <AppBar activePage={activePage} setActivePage={setActivePage} />
+        <AppBar activePage={activePage} />
         <Stack.Navigator screenOptions={{headerShown: false}}>
           <Stack.Screen name="ListPost" component={ListPostController} />
           <Stack.Screen name="AddPost" component={AddPostController} />

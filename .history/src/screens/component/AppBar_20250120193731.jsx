@@ -8,23 +8,15 @@ const AppBar = ({activePage, setActivePage}) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Form Listesi</Text>
-      {activePage === 'Gönderiler' ? (
-        <CustomButton
-          buttonTitle={'Gönderi Ekle'}
-          onPress={() => {
-            setActivePage('Gönderi Ekle');
-            navigation.navigate('AddPost');
-          }}
-        />
-      ) : (
-        <CustomButton
-          buttonTitle={'Gönderi Listesi'}
-          onPress={() => {
-            setActivePage('Gönderiler');
-            navigation.navigate('ListPost');
-          }}
-        />
-      )}
+{activePage=== "Gönderiler"? (       <CustomButton
+        buttonTitle={
+'Gönderi Ekle' 
+        }
+        onPress={() => {
+            setActivePage("Gönderi Ekle")
+          navigation.navigate('AddPost');
+        }}
+      />)}
     </View>
   );
 };
