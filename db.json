@@ -1,67 +1,191 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "date": "2025-01-20",
       "title": "Yeni Başlangıçlar",
-      "text": "Bugün harika bir gün, çok verimli başladım.",
+      "text": "Bugün harika bir gün.",
       "user": "kubra"
     },
     {
-      "id": 2,
+      "id": "2",
       "date": "2025-01-19",
       "title": "Redux Toolkit Öğrenimi",
-      "text": "Redux Toolkit ile çalışmak, React projelerimi çok daha düzenli hale getirdi.",
+      "text": "Redux Toolkit ile çalışmak.",
       "user": "kubra"
     },
     {
-      "id": 3,
+      "id": "3",
       "date": "2025-01-18",
       "title": "Netflix Clone İlerlemesi",
-      "text": "Film detaylarını ve trendleri ekledim, harika görünüyor!",
+      "text": "Film detaylarını ve trendleri ekledim.",
       "user": "kubra"
     },
     {
-      "id": 4,
+      "id": "4",
       "date": "2025-01-20",
       "title": "Yeni Başlangıçlar",
-      "text": "Bugün harika bir gün, çok verimli başladım.",
+      "text": "Bugün harika bir gün.",
       "user": "kubra"
     },
     {
-      "id": 5,
+      "id": "5",
       "date": "2025-01-19",
       "title": "Redux Toolkit Öğrenimi",
-      "text": "Redux Toolkit ile çalışmak, React projelerimi çok daha düzenli hale getirdi.",
+      "text": "Redux Toolkit ile çalışmak.",
       "user": "kubra"
     },
     {
-      "id": 6,
+      "id": "6",
       "date": "2025-01-18",
       "title": "Netflix Clone İlerlemesi",
-      "text": "Film detaylarını ve trendleri ekledim, harika görünüyor!",
+      "text": "Film detaylarını ekledim!",
       "user": "kubra"
     },
     {
-      "id": 7,
+      "id": "7",
       "date": "2025-01-20",
       "title": "Yeni Başlangıçlar",
-      "text": "Bugün harika bir gün, çok verimli başladım.",
+      "text": "Bugün harika bir gün.",
       "user": "kubra"
     },
     {
-      "id": 8,
+      "id": "8",
       "date": "2025-01-19",
       "title": "Redux Toolkit Öğrenimi",
-      "text": "Redux Toolkit ile çalışmak, React projelerimi çok daha düzenli hale getirdi.",
+      "text": "Redux Toolkit ile çalışmak.",
       "user": "kubra"
     },
     {
-      "id": 3,
+      "id": "3",
       "date": "2025-01-18",
       "title": "Netflix Clone İlerlemesi",
-      "text": "Film detaylarını ve trendleri ekledim, harika görünüyor!",
+      "text": "Film detaylarını ve trendleri ekledim!",
       "user": "kubra"
+    },
+    {
+      "id": 1737398410236,
+      "date": "2025-01-20T18:40:10.236Z",
+      "title": "Assassin",
+      "text": "Asdad",
+      "user": "As"
+    },
+    {
+      "id": 1737398410236,
+      "date": "2025-01-20T18:40:10.236Z",
+      "title": "Assassin",
+      "text": "Assad",
+      "user": "As"
+    },
+    {
+      "id": 1737398626000,
+      "date": "2025-01-20T18:43:46.000Z",
+      "title": "As",
+      "text": "Do",
+      "user": "As"
+    },
+    {
+      "id": 1737398765416,
+      "date": "2025-01-20T18:46:05.416Z",
+      "title": "Sass",
+      "text": "Dasa",
+      "user": "Kubraaaaa"
+    },
+    {
+      "id": "cd3f",
+      "title": "",
+      "text": "",
+      "user": ""
+    },
+    {
+      "id": "9a89",
+      "title": "",
+      "text": "",
+      "user": ""
+    },
+    {
+      "id": "39ed",
+      "title": "",
+      "text": "",
+      "user": ""
+    },
+    {
+      "id": "16ad",
+      "title": "",
+      "text": "",
+      "user": ""
+    },
+    {
+      "id": "381c",
+      "title": "",
+      "text": "",
+      "user": ""
+    },
+    {
+      "id": "328c",
+      "title": "",
+      "text": "",
+      "user": ""
+    },
+    {
+      "id": "de5f",
+      "title": "Were we",
+      "text": "Werwrwr",
+      "user": "Ewrwrwwerwr"
+    },
+    {
+      "id": "fd6d",
+      "title": "",
+      "text": "",
+      "user": ""
+    },
+    {
+      "id": "bf4a",
+      "title": "",
+      "text": "",
+      "user": ""
+    },
+    {
+      "id": "5775",
+      "title": "",
+      "text": "",
+      "user": ""
+    },
+    {
+      "id": "6683",
+      "title": "",
+      "text": "",
+      "user": ""
+    },
+    {
+      "id": "71eb",
+      "title": "",
+      "text": "",
+      "user": ""
+    },
+    {
+      "id": "b975",
+      "title": "",
+      "text": "",
+      "user": ""
+    },
+    {
+      "id": "c057",
+      "title": "",
+      "text": "",
+      "user": ""
+    },
+    {
+      "id": "db58",
+      "title": "Assad",
+      "text": "Were asdadsa",
+      "user": "Adds"
+    },
+    {
+      "id": "9708",
+      "title": "",
+      "text": "Were add adds",
+      "user": ""
     }
   ]
 }

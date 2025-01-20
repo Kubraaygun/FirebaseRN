@@ -1,0 +1,15 @@
+import {StyleSheet, Text, View} from 'react-native';
+import React, {ustate} from 'react';
+import AddPostView from './AddPostView';
+import AddPostModel from './AddPostModel';
+
+const AddPostController = () => {
+  const formModel = new AddPostModel();
+  const [form, setForm] = useState(formModel.state);
+  console.log(formModel);
+  return <AddPostView />;
+};
+
+export default AddPostController;
+
+const styles = StyleSheet.create({});
