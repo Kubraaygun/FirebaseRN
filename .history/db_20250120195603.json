@@ -1,0 +1,69 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "date": "2025-01-20",
+      "title": "Yeni Başlangıçlar",
+      "text": "Bugün harika bir gün, çok verimli başladım.",
+      "user": "kubra"
+    },
+    {
+      "id": 2,
+      "date": "2025-01-19",
+      "title": "Redux Toolkit Öğrenimi",
+      "text": "Redux Toolkit ile çalışmak, React projelerimi çok daha düzenli hale getirdi.",
+      "user": "kubra"
+    },
+    {
+      "id": 3,
+      "date": "2025-01-18",
+      "title": "Netflix Clone İlerlemesi",
+      "text": "Film detaylarını ve trendleri ekledim, harika görünüyor!",
+      "user": "kubra"
+    }
+    {
+        "id": 4,
+        "date": "2025-01-20",
+        "title": "Yeni Başlangıçlar",
+        "text": "Bugün harika bir gün, çok verimli başladım.",
+        "user": "kubra"
+      },
+      {
+        "id": 5,
+        "date": "2025-01-19",
+        "title": "Redux Toolkit Öğrenimi",
+        "text": "Redux Toolkit ile çalışmak, React projelerimi çok daha düzenli hale getirdi.",
+        "user": "kubra"
+      },
+      {
+        "id": 6,
+        "date": "2025-01-18",
+        "title": "Netflix Clone İlerlemesi",
+        "text": "Film detaylarını ve trendleri ekledim, harika görünüyor!",
+        "user": "kubra"
+      }
+      {
+        "id": 7,
+        "date": "2025-01-20",
+        "title": "Yeni Başlangıçlar",
+        "text": "Bugün harika bir gün, çok verimli başladım.",
+        "user": "kubra"
+      },
+      {
+        "id": 8,
+        "date": "2025-01-19",
+        "title": "Redux Toolkit Öğrenimi",
+        "text": "Redux Toolkit ile çalışmak, React projelerimi çok daha düzenli hale getirdi.",
+        "user": "kubra"
+      },
+      {
+        "id": 3,
+        "date": "2025-01-18",
+        "title": "Netflix Clone İlerlemesi",
+        "text": "Film detaylarını ve trendleri ekledim, harika görünüyor!",
+        "user": "kubra"
+      }
+  ]
+
+  
+}
