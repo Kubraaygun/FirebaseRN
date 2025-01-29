@@ -16,34 +16,18 @@ const AddPostController = () => {
   };
 
   const handleSubmit = () => {
-    const postData = {
-      ...form,
-      id: new Date().getTime(),
-      date: new Date(),
-    };
-
     axios
-      .post('http://localhost:3000/posts', postData)
+      .post('http://10.0.2.2:3000/posts', form)
       .then(res => {
-        console.log('Post successful:', res.data);
         setForm({
           title: '',
           text: '',
           user: '',
         });
-
-        // Gönderiyi ekledikten sonra ListPost verisini yeniden çek
-        axios
-          .get('http://localhost:3000/posts')
-          .then(response => {
-            // Listeyi güncelle
-            setPostData(response.data); // Burada ListPostController'daki setPostData fonksiyonuna erişebilmelisin
-            navigation.navigate('ListPost');
-          })
-          .catch(error => console.log('Veri çekme hatası:', error));
+        navigation.navigate('ListPost');
       })
       .catch(err => {
-        console.log('Error:', err.message);
+        console.log(err.message);
       });
   };
 
