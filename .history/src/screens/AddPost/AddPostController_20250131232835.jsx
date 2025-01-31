@@ -34,8 +34,14 @@ const AddPostController = () => {
           user: '',
         });
 
-        // Gönderiyi ekledikten sonra ListPost ekranına yönlendir
-        navigation.navigate('ListPost');
+        // Gönderiyi ekledikten sonra ListPost verisini yeniden çek
+        axios
+          .get('http://10.0.2.2:3000/posts')
+          .then(response => {
+            // Listeyi güncelle
+            navigation.navigate('ListPost', {updatedPosts: response.data});
+          })
+          .catch(error => console.log('Veri çekme hatası:', error));
       })
       .catch(err => {
         console.log('Error:', err.message);
